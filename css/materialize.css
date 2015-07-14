@@ -735,88 +735,88 @@
 .cyan-text.text-accent-4 {
   color: #00b8d4 !important; }
 
-.teal.lighten-5 {
+.yellow.lighten-5 {
   background-color: #e0f2f1 !important; }
 
-.teal-text.text-lighten-5 {
+.yellow-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4 {
+.yellow.lighten-4 {
   background-color: #b2dfdb !important; }
 
-.teal-text.text-lighten-4 {
+.yellow-text.text-lighten-4 {
   color: #b2dfdb !important; }
 
-.teal.lighten-3 {
+.yellow.lighten-3 {
   background-color: #80cbc4 !important; }
 
-.teal-text.text-lighten-3 {
+.yellow-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2 {
+.yellow.lighten-2 {
   background-color: #4db6ac !important; }
 
-.teal-text.text-lighten-2 {
+.yellow-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.yellow.lighten-1 {
   background-color: #26a69a !important; }
 
-.teal-text.text-lighten-1 {
+.yellow-text.text-lighten-1 {
   color: #26a69a !important; }
 
-.teal {
+.yellow {
   background-color: #009688 !important; }
 
-.teal-text {
+.yellow-text {
   color: #009688 !important; }
 
-.teal.darken-1 {
+.yellow.darken-1 {
   background-color: #00897b !important; }
 
-.teal-text.text-darken-1 {
+.yellow-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2 {
+.yellow.darken-2 {
   background-color: #00796b !important; }
 
-.teal-text.text-darken-2 {
+.yellow-text.text-darken-2 {
   color: #00796b !important; }
 
-.teal.darken-3 {
+.yellow.darken-3 {
   background-color: #00695c !important; }
 
-.teal-text.text-darken-3 {
+.yellow-text.text-darken-3 {
   color: #00695c !important; }
 
-.teal.darken-4 {
+.yellow.darken-4 {
   background-color: #004d40 !important; }
 
-.teal-text.text-darken-4 {
+.yellow-text.text-darken-4 {
   color: #004d40 !important; }
 
-.teal.accent-1 {
+.yellow.accent-1 {
   background-color: #a7ffeb !important; }
 
-.teal-text.text-accent-1 {
+.yellow-text.text-accent-1 {
   color: #a7ffeb !important; }
 
-.teal.accent-2 {
+.yellow.accent-2 {
   background-color: #64ffda !important; }
 
-.teal-text.text-accent-2 {
+.yellow-text.text-accent-2 {
   color: #64ffda !important; }
 
-.teal.accent-3 {
+.yellow.accent-3 {
   background-color: #1de9b6 !important; }
 
-.teal-text.text-accent-3 {
+.yellow-text.text-accent-3 {
   color: #1de9b6 !important; }
 
-.teal.accent-4 {
+.yellow.accent-4 {
   background-color: #00bfa5 !important; }
 
-.teal-text.text-accent-4 {
+.yellow-text.text-accent-4 {
   color: #00bfa5 !important; }
 
 .green.lighten-5 {
@@ -5963,7 +5963,7 @@ button.btn-floating {
     background-color: rgba(156, 39, 176, 0.7); }
   .waves-effect.waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
-  .waves-effect.waves-teal .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
 
 .waves-notransition {
