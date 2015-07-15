@@ -6,6 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+.mobile-btn--wrapper {
+  height: 64px;
+  width: 100%;
+  display: table;
+}
+
+.mobile-btn {
+  display: table-cell;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -65,7 +75,6 @@ p {
     padding-bottom: 56px;
   }
   footer {
-      display: inline-block;
       width: 100%;
       position: fixed;
       bottom: 0px;
@@ -84,7 +93,6 @@ p {
     padding-bottom: 56px;
   }
   footer {
-      display: inline-block;
       width: 100%;
       position: fixed;
       bottom: 0px;
