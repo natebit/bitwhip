@@ -6,9 +6,24 @@
  * Made By MaterializeCSS.com
  */
 
+header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+}
+
+main {
+  padding-top: 56px;
+}
+
+ header, main, footer {
+    padding-left: 240px;
+ }
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #ffffff;
 }
 
 p {
@@ -29,7 +44,13 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
+/*desktop*/
+@media only screen and (min-width : 993px) {
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -37,11 +58,36 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  header, main, footer {
+     padding-left: 0px;
+  }
+  main {
+    padding-bottom: 56px;
+  }
+  footer {
+      display: inline-block;
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+  }
 }
 
+/*mobile*/
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  header, main, footer {
+     padding-left: 0px;
+  }
+  main {
+    padding-bottom: 56px;
+  }
+  footer {
+      display: inline-block;
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
   }
 }
 
@@ -55,3 +101,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+nav .nav-wrapper i
+  {
+    display: inline-block;
+  }

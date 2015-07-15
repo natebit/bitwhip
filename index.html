@@ -15,36 +15,19 @@
   <link href="css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
-<header>
-
-  <!-- <nav role="navigation"> -->
-    <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
-      <li class="logo"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
-      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
-      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
-      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
-    </ul>
-  <!-- </nav> -->
-
+<header class="fixed">
   <nav class="yellow darken-3" role="navigation">
    <div class="nav-wrapper container">
-
     <a id="logo-container" href="/" class="brand-logo">
-     <img src="images/favicon.png">
+     <!-- <img src="images/favicon.png"> -->
+      <i class="fa fa-taxi text-white"></i>
     </a>
 
-     <ul class="right hide-on-med-and-down">
-      <li><a href="/about">About</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/safety">Safety</a></li>
-      <li><a href="/contact">Contact</a></li>
-     </ul>
-
-     <ul id="nav-mobile" class="side-nav">
-      <li><a href="/"><i class="fa fa-home">&nbsp;&nbsp;&nbsp;Home</i></a></li>
+     <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
+      <li class="logo"><a href="/"><i class="fa fa-taxi">&nbsp;&nbsp;&nbsp;BitWhip</i></a></li>
       <li><a href="/about"><i class="fa fa-info-circle">&nbsp;&nbsp;&nbsp;About</i></a></li>
       <li><a href="/services"><i class="fa fa-tree">&nbsp;&nbsp;&nbsp;Services</i></a></li>
-      <li><a href="/safety"><i class="fa fa-life-ring">&nbsp;&nbsp;&nbsp;Safety</i></a></li>
+      <li><a href="/safety"><i class="fa fa-life-ring">&nbsp;&nbsp;&nbsp;Schedule</i></a></li>
       <li><a href="/contact"><i class="fa fa-send-o">&nbsp;&nbsp;&nbsp;Contact</i></a></li>
      </ul>
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
@@ -52,63 +35,51 @@
   </nav>
 </header>
 
+<main>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
         <h1 class="header center yellow-text text-darken-2">BitWhip Taxi</h1>
         <div class="row center">
           <h5 class="header col s12 light">Detroit's First BitCoin Powered Taxi Company</h5>
         </div>
         <div class="row center">
           <!-- <a class="white-text" href="mailto:hello@bitwhip.io" subject="Hello"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;hello@bitwhip.io</a></li> -->
-          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2">Schedule A Ride</a>
-          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2 hide-on-large-only">Call Us</a>
+          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2">Schedule</a>
+          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2 hide-on-large-only">Call</a>
         </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-
   <div class="container">
     <div class="section">
-
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center yellow-text yellow-text text-darken-2"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Fastest Ride Around</h5>
-
             <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center yellow-text text-darken-2"><i class="material-icons">group</i></h2>
             <h5 class="center">Rider Focused</h5>
-
             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center yellow-text text-darken-2"><i class="material-icons">settings</i></h2>
             <h5 class="center">Smoothest Ride In The City</h5>
-
             <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -123,7 +94,6 @@
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send yellow-text text-darken-2"></i></h3>
@@ -131,7 +101,6 @@
           <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -145,31 +114,32 @@
     </div>
     <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
+</main>
 
-  <footer class="page-footer yellow darken-2" style="padding-top: 0px">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col l4 s12">
-          <h5 class="white-text">Contact</h5>
-          <ul>
-            <li><a class="white-text" href="https://www.google.com/maps/place/22765+Dequindre+Rd,+Hazel+Park,+MI+48030/@42.4601707,-83.0841166,17z/data=!3m1!4b1!4m2!3m1!1s0x8824cfd4ab7b8677:0xf3c102bba4235f1"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;1442 Brush St. Detroit, MI 48214</a></li>
-            <li><a class="white-text" href="tel:5866652260"><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;313.808.8521</a></li>
-            <li><a class="white-text" href="mailto:hello@bitwhip.io" subject="Hello"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;hello@bitwhip.io</a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-    <div class="footer-copyright center-align">
-      <div class="container">
-        <p class="white-text text-lighten-2">"A Good Ride, Everytime"</p>
+<footer class="page-footer yellow darken-2 hide-on-large-only" style="padding-top: 0px">
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col l4 s12">
+        <h5 class="white-text">Contact</h5>
+        <ul>
+          <li><a class="white-text" href="https://www.google.com/maps/place/22765+Dequindre+Rd,+Hazel+Park,+MI+48030/@42.4601707,-83.0841166,17z/data=!3m1!4b1!4m2!3m1!1s0x8824cfd4ab7b8677:0xf3c102bba4235f1"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;1442 Brush St. Detroit, MI 48214</a></li>
+          <li><a class="white-text" href="tel:5866652260"><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;313.808.8521</a></li>
+          <li><a class="white-text" href="mailto:hello@bitwhip.io" subject="Hello"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;hello@bitwhip.io</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-copyright center-align">
-      <div class="container">
-        <a class="white-text text-lighten-3">&#169;&nbsp;&nbsp;BitWhip Taxi, Inc&nbsp;&nbsp;2015</a>
-      </div>
+  </div> -->
+  <div class="footer-copyright center-align">
+    <div class="container">
+      <p class="white-text text-lighten-2">"A Good Ride, Everytime"</p>
     </div>
-  </footer>
+  </div>
+  <div class="footer-copyright center-align">
+    <div class="container">
+      <a class="white-text text-lighten-3">&#169;&nbsp;&nbsp;BitWhip Taxi, Inc&nbsp;&nbsp;2015</a>
+    </div>
+  </div>
+</footer>
 
   <!--  Scripts-->
   <script src="js/jquery-2.1.4.min.js"></script>
