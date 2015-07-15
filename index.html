@@ -15,11 +15,42 @@
   <link href="css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-    </div>
+<header>
+
+  <!-- <nav role="navigation"> -->
+    <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
+      <li class="logo"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
+      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
+      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
+      <li class="bold"><a id="logo-container" href="#" class="brand-logo">Logo</a></li>
+    </ul>
+  <!-- </nav> -->
+
+  <nav class="yellow darken-3" role="navigation">
+   <div class="nav-wrapper container">
+
+    <a id="logo-container" href="/" class="brand-logo">
+     <img src="images/favicon.png">
+    </a>
+
+     <ul class="right hide-on-med-and-down">
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/safety">Safety</a></li>
+      <li><a href="/contact">Contact</a></li>
+     </ul>
+
+     <ul id="nav-mobile" class="side-nav">
+      <li><a href="/"><i class="fa fa-home">&nbsp;&nbsp;&nbsp;Home</i></a></li>
+      <li><a href="/about"><i class="fa fa-info-circle">&nbsp;&nbsp;&nbsp;About</i></a></li>
+      <li><a href="/services"><i class="fa fa-tree">&nbsp;&nbsp;&nbsp;Services</i></a></li>
+      <li><a href="/safety"><i class="fa fa-life-ring">&nbsp;&nbsp;&nbsp;Safety</i></a></li>
+      <li><a href="/contact"><i class="fa fa-send-o">&nbsp;&nbsp;&nbsp;Contact</i></a></li>
+     </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+   </div>
   </nav>
+</header>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -31,7 +62,8 @@
         </div>
         <div class="row center">
           <!-- <a class="white-text" href="mailto:hello@bitwhip.io" subject="Hello"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;&nbsp;hello@bitwhip.io</a></li> -->
-          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2">Call BitWhip</a>
+          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2">Schedule A Ride</a>
+          <a href="mailto:hello@bitwhip.io" subject="Hello" id="download-button" class="btn-large waves-effect waves-light yellow darken-2 hide-on-large-only">Call Us</a>
         </div>
         <br><br>
 
